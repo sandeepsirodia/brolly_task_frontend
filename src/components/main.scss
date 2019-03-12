@@ -1,0 +1,38 @@
+.main-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  text-align: center;
+  .input-div{
+    padding-left: 0px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }  
+  .login-register{
+    cursor: pointer;
+    color: green;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+}
+
+.list-users-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: -webkit-fill-available;
+  width: -webkit-fill-available;
+  text-align: center;
+  
+}
+
+@media(min-width: 991px){
+  .card{
+    width: 50vw;
+  }  
+}
